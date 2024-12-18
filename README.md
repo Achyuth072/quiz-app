@@ -24,7 +24,7 @@ Learning Python and attempting to create a Django-based quiz application where u
     python -m venv env
     .\env\Scripts\activate
     ```
-    
+
 3. Install the required dependencies:
 
     ```bash
@@ -36,9 +36,9 @@ Learning Python and attempting to create a Django-based quiz application where u
     ```bash
     python manage.py runserver
     ```
-    
+
 5. Access the quiz at:
+
     ```ruby
     http://127.0.0.1:8000/quiz/start/
     ```
-
