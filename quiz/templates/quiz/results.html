@@ -1,0 +1,5 @@
+<h1>Quiz Results</h1>
+<p>Total Questions: {{ session.total_questions }}</p>
+<p>Correct Answers: {{ session.correct_answers }}</p>
+<p>Incorrect Answers: {{ session.incorrect_answers }}</p>
+<a href="{% url 'quiz:start' %}">Start New Quiz</a>
